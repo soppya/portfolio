@@ -1,0 +1,298 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #ededed;
+    background: #28282B;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: aqua;
+}
+
+.s {
+    color: aqua;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: aqua;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn {
+    width: 345px;
+    height: 50px;
+}
+
+.btn a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 100%;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    font-size: 19px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn a:hover {
+    background: aqua;
+    color: black;
+    transition: .5s;
+}
+
+.home-soc {
+    position: absolute;
+    bottom: 100px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-soc a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+}
+
+.home-soc a:hover {
+    background: aqua;
+    color: black;
+    transition: .5s;
+}
+
+.left-img img {
+    width: 60%;
+    height: 60%;
+    margin-left: 40%;
+    border-radius: 50px;
+}
+
+.next-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+ 
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.aboutimg {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutimg img {
+    width: 90%;
+    border-radius: 50%;
+    border: .2rem solid aqua;
+}
+
+.aboutcontent {
+    text-align: center;
+}
+
+.aboutcontent h3 {
+    font-size: 2.5rem;
+}
+
+.aboutcontent p {
+    font-size: 1rem;
+    margin: 2rem 0 3rem;
+}
+
+.skills {
+    padding: 50px 10%;
+    background: #28282B;
+    text-align: center;
+}
+
+.skill-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background: #28282B;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.skill-card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.skill-bar {
+    background: #28282B;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.skill-percentage {
+    height: 20px;
+    background: aqua;
+    color: black;
+    line-height: 20px;
+    text-align: center;
+}
+
+.skill-percentage.html {
+    width: 90%;
+}
+
+.skill-percentage.css {
+    width: 80%;
+}
+
+.skill-percentage.java {
+    width: 50%;
+}
+
+.skill-percentage.python {
+    width: 50%;
+}
+
+.contact{
+    max-width: auto;
+    padding-bottom: 5rem;
+}
+
+.contact form{
+    max-width: 50rem;
+    height: 50rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact form .input-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.contact form .input-box .input-field{
+    position: relative;
+    width: 49%;
+    margin: .8rem 0;
+}
+
+.contact form .input-box .input-field input,
+.contact form .textarea textarea{
+    width:100%;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    background: transparent;
+    border-radius: .6rem;
+    border: .2rem solid aqua;
+}
+.btnbox{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 100%;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    font-size: 19px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btnbox:hover{
+    background: aqua;
+    color: black;
+    transition: .5s; 
+}
